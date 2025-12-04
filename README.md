@@ -2,7 +2,7 @@
 
 **⚠️ PROPRIETARY SOFTWARE - ALL RIGHTS RESERVED**
 
-Open-source automated liquidity management daemon for Sonic Labs.
+Source-available automated liquidity management daemon for EVM-compatible chains (Uniswap V3 contracts).
 
 ---
 
@@ -79,7 +79,7 @@ npm start
 ### Requirements
 - **Node.js**: v18 or later
 - **Operating System**: macOS, Windows, or Linux
-- **Network**: Sonic Labs mainnet access
+- **Network**: EVM-compatible chain (currently Sonic)
 - **Subscription**: Active Bulwk subscription required
 
 ### Installation
@@ -115,7 +115,7 @@ npm start
 ### Build from Source
 
 ```bash
-# Clone repository (requires GitHub login)
+# Clone repository
 git clone https://github.com/bulwk/bulwk-daemon
 cd bulwk-daemon
 
@@ -134,7 +134,7 @@ npm start
 ## 📖 Documentation
 
 ### Configuration
-- **RPC URL**: Configurable Sonic Labs RPC endpoint
+- **RPC URL**: Configurable EVM RPC endpoint
 - **Wallet**: Private key (stored locally, never transmitted)
 - **Platform URL**: https://app.bulwk.com (production)
 - **Policy Sync**: 10-second polling + WebSocket instant updates
@@ -181,9 +181,9 @@ bulwk-daemon/
 
 ### Code Transparency
 - Full source code available on GitHub
-- Requires GitHub login to view (anti-scraping)
 - All releases are SHA256 verified
 - No obfuscation or minification of logic
+- Public repository for community inspection
 
 ### Data Privacy
 - **Private keys**: Stored locally, never transmitted
