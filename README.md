@@ -204,6 +204,14 @@ bulwk-daemon/
 4. **Set emergency stop threshold** to protect capital
 5. **Keep private keys secure** - daemon uses software wallet stored locally
 
+### GitHub Vulnerability Notices
+If you see dependency vulnerability warnings on GitHub, note that:
+- **All flagged vulnerabilities are in dev dependencies only** (Hardhat, Vite, solc)
+- Dev dependencies are NOT included in the distributed daemon ZIP
+- Production runtime code has zero exposure to these issues
+- Vulnerabilities only affect local development environment (not end users)
+- Fixing would require breaking changes that could destabilize builds
+
 ---
 
 ## ⚠️ Risk Disclosure
