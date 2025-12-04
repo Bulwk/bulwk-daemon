@@ -1,6 +1,6 @@
 {
   "name": "balancer-agent-web",
-  "version": "2.3.73",
+  "version": "2.3.74",
   "description": "Bulwk Trading Agent with Web GUI",
   "type": "module",
   "scripts": {

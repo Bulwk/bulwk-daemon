@@ -2856,6 +2856,23 @@ export class DaemonController {
         return false
       }
 
+      // SECURITY FIX: Validate txHash exists for completed status
+      if (receipt.status === 'completed') {
+        const hasTxHash = receipt.txHash || (receipt.txHashes && receipt.txHashes.length > 0 && receipt.txHashes[0])
+        if (!hasTxHash) {
+          this.log(`⚠️  Cannot report completed receipt for ${intentId} - no txHash available`)
+          this.log(`   This indicates transaction failed before getting hash. Reporting as failed instead.`)
+          // Change status to failed and add error message
+          receipt = {
+            ...receipt,
+            status: 'failed',
+            error: 'Transaction failed before txHash was returned',
+            txHash: undefined,
+            txHashes: undefined
+          }
+        }
+      }
+
       const headers = { 'Content-Type': 'application/json' }
       if (this.jwtToken) {
         headers['Authorization'] = `Bearer ${this.jwtToken}`
