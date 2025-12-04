@@ -34,7 +34,7 @@ This software is licensed under the **Bulwk Daemon Software License v1.0**.
 ## 📥 Download
 
 ### Official Download (Recommended)
-**[app.bulwk.com/download](https://app.bulwk.com/download)**
+**[app.bulwk.com](https://app.bulwk.com)**
 - No GitHub account required
 - Automatic updates included
 - SHA256 verified
@@ -108,7 +108,7 @@ npm start
    ```
 
 4. **Open Browser**
-   - Daemon automatically opens `http://localhost:3000`
+   - Daemon automatically opens `http://localhost:3420`
    - Login with your Bulwk credentials
    - Configure automation settings
 
@@ -199,10 +199,10 @@ bulwk-daemon/
 
 ### Security Best Practices
 1. **Verify SHA256** before running any download
-2. **Use hardware wallet** for production funds
-3. **Start with small amounts** to test automation
-4. **Monitor activity logs** regularly
-5. **Set emergency stop threshold** to protect capital
+2. **Start with small amounts** to test automation
+3. **Monitor activity logs** regularly
+4. **Set emergency stop threshold** to protect capital
+5. **Keep private keys secure** - daemon uses software wallet stored locally
 
 ---
 
@@ -248,7 +248,7 @@ The daemon maintains a persistent WebSocket connection to the Bulwk platform:
 node --version  # Should be v18+
 
 # Check port availability
-lsof -i :3000  # Should be empty
+lsof -i :3420  # Should be empty
 
 # Check npm install
 npm install  # Reinstall dependencies
@@ -258,7 +258,6 @@ npm install  # Reinstall dependencies
 - Verify internet connection
 - Check firewall allows WSS (port 443)
 - Ensure JWT token is valid (re-login)
-- Check platform status: https://status.bulwk.com
 
 ### Rebalancing Not Triggering
 - Verify "Auto Rebalancing" is enabled
@@ -282,12 +281,9 @@ shasum -a 256 balancer-agent-web-gui.zip
 ## 📞 Support
 
 ### Technical Support
-- **Email**: support@bulwk.com
-- **Discord**: [discord.gg/bulwk](https://discord.gg/bulwk)
-- **Status Page**: https://status.bulwk.com
+- **Telegram**: https://t.me/AgentBulwk
 
 ### Legal & Licensing
-- **Email**: legal@bulwk.com
 - **License Portal**: https://ipfs.io/ipfs/QmeHNrhouvtuaoMF93uCMf6rLJCmGu7fP8Tq8MmUntMN3D
 
 ### Bug Reports & Feature Requests
@@ -312,8 +308,6 @@ shasum -a 256 balancer-agent-web-gui.zip
 ### v2.3.71 (2025-12-02)
 - ✅ Fixed idle sweep auto_deploy_idle field path
 - ✅ Reconnected UI toggle to database
-
-See full changelog: [CHANGELOG.md](./CHANGELOG.md)
 
 ---
 
@@ -353,10 +347,8 @@ By using this software, you agree to be bound by the terms in [LICENSE](./LICENS
 
 - **Official Website**: https://bulwk.com
 - **Platform**: https://app.bulwk.com
-- **Documentation**: https://docs.bulwk.com
-- **Status Page**: https://status.bulwk.com
-- **Twitter**: [@bulwk_com](https://twitter.com/bulwk_com)
-- **Discord**: [discord.gg/bulwk](https://discord.gg/bulwk)
+- **Documentation**: https://bulwk.com/docs
+- **X (Twitter)**: https://x.com/agentbulwk
 
 ---
 
