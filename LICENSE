@@ -1,0 +1,411 @@
+BULWK DAEMON SOFTWARE LICENSE
+Version 1.0
+Copyright (c) 2025 BMC Saasy Technologies, Inc.
+
+ALL RIGHTS RESERVED
+
+This software and associated documentation files (the "Software") are the exclusive
+property of BMC Saasy Technologies, Inc. ("Licensor"). By using, copying, modifying,
+or distributing the Software, you agree to be bound by the terms of this License.
+
+================================================================================
+1. DEFINITIONS
+================================================================================
+
+1.1 "Software" means the Bulwk Daemon execution client, including all source code,
+    object code, documentation, and associated files.
+
+1.2 "Derivative Work" means any work based upon the Software, including modifications,
+    enhancements, translations, adaptations, or any other form in which the Software
+    may be recast, transformed, or adapted.
+
+1.3 "Signal Service" means the proprietary signal generation and distribution service
+    operated by Licensor, accessible only via authenticated API credentials.
+
+1.4 "End User" means an individual or entity that uses the Software for personal
+    liquidity provision purposes without redistribution rights.
+
+1.5 "License Holder" means an entity that has purchased a valid commercial license
+    from Licensor (Standard Access License or Enterprise License).
+
+1.6 "License 1 Holder" means an entity with Standard Access License ($300,000/year)
+    with B2C distribution rights.
+
+1.7 "License 2 Holder" means an entity with Enterprise License ($1,250,000/year)
+    with B2B and B2C distribution rights.
+
+================================================================================
+2. GRANT OF LICENSE
+================================================================================
+
+2.1 END USERS (No Commercial License):
+    Subject to the terms of this License, Licensor grants End Users a limited,
+    non-exclusive, non-transferable, revocable license to:
+
+    (a) Use the Software for personal liquidity provision
+    (b) Execute the Software on their own computing devices
+    (c) Access the Signal Service subject to active subscription
+
+    END USERS MAY NOT:
+    (x) Modify, adapt, or create Derivative Works
+    (y) Distribute, sublicense, or transfer the Software
+    (z) Use the Software for any commercial purpose
+    (w) Reverse engineer or decompile the Software
+
+2.2 LICENSE 1 HOLDERS (Standard Access - $300K/year):
+    Subject to valid License 1 and continued payment, License 1 Holders may:
+
+    (a) Use the Software for internal business operations
+    (b) Create Derivative Works (subject to Section 3.2)
+    (c) Distribute the Software to End Users (B2C only)
+    (d) Customize and rebrand the Software for their End Users
+    (e) Access the Signal Service with API credentials
+
+    LICENSE 1 HOLDERS MAY NOT:
+    (x) Distribute or sublicense to other businesses (B2B)
+    (y) Claim ownership of Derivative Works (see Section 3.2)
+    (z) Operate the Software without active Signal Service access
+    (w) Share API credentials with unauthorized parties
+
+2.3 LICENSE 2 HOLDERS (Enterprise License - $1.25M/year):
+    Subject to valid License 2, continued payment, and 5% revenue share,
+    License 2 Holders receive all rights from Section 2.2 PLUS:
+
+    (a) Distribute or sublicense to other businesses (B2B)
+    (b) Resell Signal Service access to enterprise clients
+    (c) Create white-label versions for B2B distribution
+    (d) Priority support and quarterly business reviews
+
+    LICENSE 2 HOLDERS MUST:
+    (x) Pay 5% of ALL gross revenue from sublicensing quarterly
+    (y) Submit quarterly revenue reports (due 15 days after quarter end)
+    (z) Maintain accurate records subject to annual audit
+    (w) Display attribution "Powered by Bulwk" in all distributions
+
+    LICENSE 2 HOLDERS MAY NOT:
+    (x) Claim ownership of Derivative Works (see Section 3.2)
+    (y) Operate without active Signal Service access
+    (z) Sublicense Enterprise rights to third parties
+
+================================================================================
+3. INTELLECTUAL PROPERTY - AUTOMATIC DERIVATIVE ASSIGNMENT
+================================================================================
+
+3.1 OWNERSHIP:
+    Licensor retains all right, title, and interest in and to the Software,
+    including all intellectual property rights. No ownership rights are
+    transferred under this License.
+
+3.2 AUTOMATIC ASSIGNMENT OF DERIVATIVE WORKS:
+
+    **CRITICAL: ALL DERIVATIVE WORKS AUTOMATICALLY BELONG TO LICENSOR**
+
+    By creating any Derivative Work, the creator hereby AUTOMATICALLY and
+    IRREVOCABLY assigns to Licensor:
+
+    (a) All right, title, and interest in the Derivative Work
+    (b) All intellectual property rights, including copyrights, patents,
+        trade secrets, and any other proprietary rights
+    (c) The exclusive right to use, modify, distribute, sublicense, and
+        commercially exploit the Derivative Work in perpetuity
+    (d) All moral rights and rights of attribution
+
+    This assignment occurs IMMEDIATELY upon creation of the Derivative Work,
+    without requirement of written notice or separate agreement.
+
+3.3 LICENSE BACK TO DERIVATIVE CREATORS:
+
+    Upon automatic assignment under Section 3.2, Licensor grants back to
+    the creator a LIMITED license to use the Derivative Work according to
+    their License tier:
+
+    LICENSE 1 HOLDERS:
+    - May use Derivative Works for B2C distribution only
+    - May customize for their End Users
+    - DO NOT own the Derivative Works
+    - No revenue sharing required
+
+    LICENSE 2 HOLDERS:
+    - May use Derivative Works for B2B and B2C distribution
+    - May sublicense to other businesses
+    - DO NOT own the Derivative Works
+    - Must pay 5% revenue share on ALL gross revenue from sublicensing
+
+    END USERS:
+    - No rights to Derivative Works
+
+3.4 ENFORCEMENT:
+    Licensor may enforce ownership rights to any Derivative Work at any time,
+    including demanding cessation of use, seeking injunctive relief, or
+    claiming damages for unauthorized use.
+
+================================================================================
+4. DISTRIBUTION RIGHTS
+================================================================================
+
+4.1 License 1 Holders may distribute the Software to unlimited End Users for
+    B2C purposes only, provided:
+
+    (a) Each distribution includes this License in full
+    (b) No distribution to businesses for their own sublicensing
+    (c) Signal Service access is maintained for all End Users
+    (d) Licensor's copyright notices remain intact
+
+4.2 License 2 Holders may distribute the Software to businesses (B2B) and
+    End Users (B2C), provided:
+
+    (a) Each distribution includes this License in full
+    (b) Attribution "Powered by Bulwk" is displayed prominently
+    (c) 5% revenue share is paid on ALL gross revenue
+    (d) Quarterly reports are submitted on time
+    (e) Recipients do not receive Enterprise sublicensing rights
+
+4.3 All distributions must preserve Licensor's ownership and this License.
+
+================================================================================
+5. SIGNAL SERVICE DEPENDENCY
+================================================================================
+
+5.1 The Software is designed to operate exclusively with Licensor's Signal Service.
+    The Software has no standalone value without access to the Signal Service.
+
+5.2 Signal Service access requires:
+    (a) Valid API credentials issued by Licensor
+    (b) Active license or subscription in good standing
+    (c) Compliance with all License terms
+
+5.3 Licensor may revoke Signal Service access immediately if:
+    (a) License fees are not paid within 30 days of due date
+    (b) This License is violated
+    (c) Fraudulent activity is detected
+    (d) Revenue sharing obligations are not met (License 2)
+
+5.4 Any attempt to:
+    (a) Reverse engineer the Signal Service
+    (b) Create alternative signal sources
+    (c) Intercept or decrypt signal communications
+    (d) Share API credentials with unauthorized parties
+
+    constitutes material breach and immediate termination of all rights.
+
+================================================================================
+6. RESTRICTIONS
+================================================================================
+
+6.1 You may not:
+    (a) Remove or alter copyright, trademark, or proprietary notices
+    (b) Use Licensor's name or trademarks without written permission
+    (c) Claim ownership of the Software or Derivative Works
+    (d) Patent any invention based on the Software
+    (e) Use the Software in any unlawful manner
+    (f) Transfer your license to another party without written consent
+
+6.2 License 1 Holders specifically may not:
+    (a) Distribute to businesses for B2B use
+    (b) Sublicense Enterprise rights
+
+6.3 License 2 Holders specifically may not:
+    (a) Avoid revenue sharing by underreporting revenue
+    (b) Refuse audit requests (maximum once per year)
+    (c) Sublicense Enterprise tier rights to customers
+
+================================================================================
+7. TERMINATION
+================================================================================
+
+7.1 This License terminates automatically if you:
+    (a) Breach any term of this License
+    (b) Fail to pay license fees within 30 days
+    (c) Fail to submit quarterly revenue reports (License 2)
+    (d) Refuse to comply with audit requests (License 2)
+    (e) Misrepresent ownership of Derivative Works
+
+7.2 Upon termination:
+    (a) All rights granted under this License cease immediately
+    (b) You must cease all use and distribution of the Software
+    (c) You must destroy all copies in your possession
+    (d) Signal Service access is revoked immediately
+    (e) Licensor retains ownership of all Derivative Works created
+    (f) Outstanding revenue share obligations remain due (License 2)
+
+7.3 Sections 3 (Intellectual Property), 8 (No Warranty), 9 (Limitation of Liability),
+    and 10 (Governing Law) survive termination.
+
+================================================================================
+8. NO WARRANTY
+================================================================================
+
+THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+LICENSOR DOES NOT WARRANT THAT:
+(a) The Software will meet your requirements
+(b) The Software will be uninterrupted, secure, or error-free
+(c) The Signal Service will generate profits
+(d) Any Derivative Works will have commercial value
+
+FINANCIAL MARKETS CARRY INHERENT RISK. YOU MAY LOSE MONEY USING THIS SOFTWARE.
+
+================================================================================
+9. COMPLETE LIMITATION OF LIABILITY & IMMUNITY
+================================================================================
+
+9.1 ABSOLUTE DISCLAIMER OF LIABILITY:
+    TO THE MAXIMUM EXTENT PERMITTED BY LAW, LICENSOR, ITS AFFILIATES, OFFICERS,
+    DIRECTORS, EMPLOYEES, AGENTS, AND REPRESENTATIVES SHALL HAVE ABSOLUTELY NO
+    LIABILITY FOR ANY DAMAGES, LOSSES, OR CLAIMS OF ANY KIND, INCLUDING BUT NOT
+    LIMITED TO:
+
+    (a) Financial losses, trading losses, or investment losses of any amount
+    (b) Lost profits, revenue, data, business opportunities, or goodwill
+    (c) Direct, indirect, incidental, special, consequential, or punitive damages
+    (d) Personal injury, death, or property damage
+    (e) Damages arising from market volatility, price fluctuations, or trading decisions
+    (f) Damages arising from Software errors, bugs, or malfunctions
+    (g) Damages arising from service interruptions, downtime, or data loss
+    (h) Damages arising from unauthorized access, hacking, or security breaches
+    (i) Damages arising from third-party actions or omissions
+
+    THIS LIMITATION APPLIES EVEN IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY
+    OF SUCH DAMAGES AND REGARDLESS OF THE LEGAL THEORY (CONTRACT, TORT, NEGLIGENCE,
+    STRICT LIABILITY, OR OTHERWISE).
+
+9.2 MAXIMUM LIABILITY CAP:
+    IN NO EVENT SHALL LICENSOR'S TOTAL AGGREGATE LIABILITY EXCEED THE LESSER OF:
+    (a) $0 (ZERO DOLLARS), OR
+    (b) Any fees actually paid by you to Licensor in the preceding 12 months
+
+    This cap applies to ALL CLAIMS in the aggregate, regardless of the number of
+    incidents or legal theories asserted.
+
+9.3 COMPLETE ASSUMPTION OF RISK:
+    YOU ACKNOWLEDGE AND AGREE THAT:
+
+    (a) You use the Software and Signal Service entirely AT YOUR OWN RISK
+    (b) You assume ALL RISK of financial loss, trading losses, and investment losses
+    (c) You are solely responsible for all trading decisions and outcomes
+    (d) You have consulted with financial, legal, and tax advisors before using the Software
+    (e) You understand that past performance does not guarantee future results
+    (f) You understand that financial markets are inherently volatile and unpredictable
+    (g) YOU MAY LOSE YOUR ENTIRE INVESTMENT AND SHOULD NOT RISK MORE THAN YOU CAN AFFORD TO LOSE
+
+9.4 RELEASE OF ALL CLAIMS:
+    YOU HEREBY IRREVOCABLY RELEASE, WAIVE, AND DISCHARGE LICENSOR AND ITS AFFILIATES
+    FROM ANY AND ALL CLAIMS, DEMANDS, ACTIONS, CAUSES OF ACTION, LIABILITIES, DAMAGES,
+    AND EXPENSES (INCLUDING ATTORNEYS' FEES) OF ANY KIND, WHETHER KNOWN OR UNKNOWN,
+    SUSPECTED OR UNSUSPECTED, ARISING OUT OF OR RELATED TO YOUR USE OF THE SOFTWARE
+    OR SIGNAL SERVICE.
+
+9.5 WAIVER OF CALIFORNIA CIVIL CODE §1542 AND EQUIVALENT:
+    You expressly waive the benefits of California Civil Code §1542 (and any equivalent
+    statute in other jurisdictions), which states:
+
+    "A general release does not extend to claims that the creditor or releasing party
+    does not know or suspect to exist in his or her favor at the time of executing
+    the release and that, if known by him or her, would have materially affected his
+    or her settlement with the debtor or released party."
+
+    YOU UNDERSTAND THAT YOU ARE RELEASING UNKNOWN AND UNSUSPECTED CLAIMS.
+
+9.6 FULL INDEMNIFICATION BY YOU:
+    YOU AGREE TO INDEMNIFY, DEFEND, AND HOLD HARMLESS LICENSOR, ITS AFFILIATES,
+    PARENT COMPANIES, SUBSIDIARIES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS,
+    CONTRACTORS, LICENSORS, SUPPLIERS, AND REPRESENTATIVES FROM AND AGAINST ANY
+    AND ALL CLAIMS, LIABILITIES, DAMAGES, LOSSES, COSTS, EXPENSES, OR FEES
+    (INCLUDING REASONABLE ATTORNEYS' FEES) ARISING FROM OR RELATED TO:
+
+    (a) Your use or misuse of the Software or Signal Service
+    (b) Your violation of this License or any applicable laws or regulations
+    (c) Your trading activities, investment decisions, or financial losses
+    (d) Your violation of any third-party rights, including intellectual property rights
+    (e) Any content, data, or information you submit or transmit
+    (f) Your negligence, willful misconduct, or violation of any duty
+    (g) Any claims by third parties arising from your use of the Software
+    (h) Your distribution of the Software to End Users (License Holders only)
+    (i) Any End User claims against Licensor (License Holders only)
+
+    This indemnification obligation survives termination of this License.
+
+9.7 DEFENSE AND SETTLEMENT:
+    Licensor reserves the right to assume exclusive defense and control of any
+    matter subject to indemnification by you. You agree to cooperate fully with
+    Licensor in asserting any available defenses. You may not settle any claim
+    without Licensor's prior written consent.
+
+================================================================================
+10. GOVERNING LAW & DISPUTE RESOLUTION
+================================================================================
+
+10.1 CHOICE OF LAW:
+     This License is governed by the laws of the jurisdiction selected by Licensor
+     at its sole discretion, which may include but is not limited to: United States
+     (any state), United Kingdom, European Union member states, or United Arab Emirates.
+     Licensor reserves the right to select the most favorable jurisdiction for
+     enforcement of this License.
+
+10.2 MANDATORY BINDING ARBITRATION:
+     ANY DISPUTE, CLAIM, OR CONTROVERSY ARISING OUT OF OR RELATING TO THIS LICENSE
+     SHALL BE RESOLVED EXCLUSIVELY THROUGH BINDING ARBITRATION.
+
+     (a) Arbitration shall be conducted by a single arbitrator under the rules of
+         the arbitration body selected by Licensor (AAA, JAMS, LCIA, or equivalent)
+     (b) Arbitration venue and seat shall be determined by Licensor
+     (c) Arbitration shall be conducted in English
+     (d) Arbitrator's decision is final and binding with no right of appeal
+     (e) Each party bears its own costs (no fee shifting)
+
+10.3 WAIVER OF CLASS ACTION AND JURY TRIAL:
+     YOU WAIVE ALL RIGHTS TO:
+     (a) Participate in any class action, collective action, or representative proceeding
+     (b) Trial by jury
+     (c) Litigation in any court
+     (d) Any form of group or consolidated claims
+
+     ALL CLAIMS MUST BE BROUGHT IN YOUR INDIVIDUAL CAPACITY ONLY.
+
+10.4 SUBMISSION TO JURISDICTION:
+     By using this Software, you irrevocably submit to the personal jurisdiction
+     of any court or arbitration venue selected by Licensor for enforcement of
+     this License or any arbitration award.
+
+10.5 INJUNCTIVE RELIEF:
+     Notwithstanding arbitration requirements, Licensor may seek immediate injunctive
+     or equitable relief in any court of competent jurisdiction to prevent
+     unauthorized use, infringement, or breach of intellectual property rights.
+
+================================================================================
+11. ENTIRE AGREEMENT
+================================================================================
+
+11.1 This License constitutes the entire agreement between you and Licensor
+     regarding the Software and supersedes all prior agreements.
+
+11.2 No modification to this License is valid unless in writing and signed by
+     an authorized representative of Licensor.
+
+11.3 If any provision is found unenforceable, the remaining provisions continue
+     in full effect.
+
+11.4 Waiver of any breach does not constitute waiver of subsequent breaches.
+
+================================================================================
+12. CONTACT
+================================================================================
+
+For licensing inquiries, technical support, or legal questions:
+
+BMC Saasy Technologies, Inc.
+Email: legal@bulwk.com
+License Portal: https://ipfs.io/ipfs/QmeHNrhouvtuaoMF93uCMf6rLJCmGu7fP8Tq8MmUntMN3D
+
+================================================================================
+
+BY USING THIS SOFTWARE, YOU ACKNOWLEDGE THAT YOU HAVE READ THIS LICENSE,
+UNDERSTAND IT, AND AGREE TO BE BOUND BY ITS TERMS AND CONDITIONS.
+
+IF YOU DO NOT AGREE, DO NOT USE, COPY, MODIFY, OR DISTRIBUTE THIS SOFTWARE.
+
+================================================================================
+END OF LICENSE
+================================================================================
